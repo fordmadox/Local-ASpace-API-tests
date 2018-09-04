@@ -1,6 +1,7 @@
 #local stuff
 secrets.py
 exports
+*.csv
 *.log
 
 # Byte-compiled / optimized / DLL files

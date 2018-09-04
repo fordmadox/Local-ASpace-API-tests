@@ -27,7 +27,7 @@ def export_ead():
             f = open(directory + '/' + resource_id +'.xml', 'wb')
             f.write(ead.encode('utf-8'))
             f.close
-            print('Exported EAD file for' + resource_id)
+            print('Exported EAD file for ' + resource_id)
         except Exception as ex:
             print('Skipping invalid row for %s. Exception: %s\n', resource_id, ex)
             continue
